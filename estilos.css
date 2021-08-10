@@ -1,0 +1,75 @@
+body {
+    border: 0px;
+    padding: 0px;
+    background-color:#C4C4C4;
+    background-size: 100%;
+}
+.contenedor {
+    margin-top: 290px;
+    margin-bottom: 262px;
+    margin-left: 356px;
+    margin-right: 360px;
+    width: 40%;
+    height:30em;
+    background-color:#ffffff;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.macaco {
+    position: absolute;
+    width: 400px;
+    height: 480px;
+    left: 364px;
+    top: 290px;
+}
+.titulo {
+    margin-top: 23px;
+    line-height: 108px;
+    text-align: right;
+    color: #000000;
+    position: absolute;
+    width: 605px;
+    height: 108px;
+    left: 438px;
+    top: calc(50% - 108px/2 - 131px);
+    font-family: 'Rancho';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+}
+.texto {
+    margin-right: 3px;
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    left: 800px;
+    top: 400px;
+    line-height: 25px;
+    text-align:center;
+    color: #000000;
+    font-family: 'Shadows Into Light';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.head-boton {
+    display: inline-block;
+    width: 128px;
+    border: 3px solid #C4C4C4(24, 16, 16, .7);
+    color:#000000;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 120px;
+    margin-left: -370px;
+    position: absolute;
+    font-family: 'Philosopher';
+    font-weight: 200;
+    
+}
